@@ -1,0 +1,18 @@
+.navbar-brand {
+    font-family: 'Oswald';
+    padding-right: 10px;
+    border-right: solid black 3px;
+}
+
+.navbar-container {
+    width: 100%;
+    margin: 0;
+    z-index: 10000;
+    opacity: 1;
+}
+
+nav {
+    background-color: white;
+    z-index: 1000;
+    width: 100vw;
+}

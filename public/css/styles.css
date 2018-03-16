@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto);
+h1 {
+    color: blue!;
+}
+
+nav {
+    background-color: white;
+    z-index: 1000;
+    width: 100vw;
+}
+
+#log-in {
+    border: solid black 10px;
+}
+
+.top-name {
+    font-family: 'Oswald';
+    font-size: 112px;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-right: solid white 15px;
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 75%;
+    border-radius: 0;
+    color: white;
+}
+
+.tag-line {
+    font-family: 'Roboto';
+    color: white;
+    font-size: 24px;
+    padding: 15px;
+}
+
+.top-container {
+    background: linear-gradient(rgba(255, 0, 0, 0.438), #fffce7, white);
+    height: 100vh;
+    width: 100vw;
+}
+
+.bottom-container {
+    background-color: (#fffce7);
+}
+
+.navbar-container {
+    width: 100%;
+    margin: 0;
+    z-index: 10000;
+    opacity: 1;
+}
+
+.top-button {
+    border-radius: 0;
+    border: solid white 5px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    transition: ease-in-out 0.1s;
+}
+
+a {
+    color: white;
+}
+
+.top-button:hover {
+    border: solid white 8px;
+    color: white;
+}
+
+.bottom-button {
+    border-radius: 0;
+    border: solid black 5px;
+    background-color: white;
+    color: black;
+    transition: ease-in-out 0.1s;
+}
+
+.bottom-button:hover {
+    border: solid black 8px;
+    background-color: white;
+    color: black;
+}
+
+.btn {
+    color: white;
+}
+
+.panel {
+    min-height: 700px;
+}
+
+.small-heading {
+    font-family: 'Oswald';
+    padding: 15px 0;
+    border-bottom: solid white 5px;
+    margin-bottom: 20px;
+}
+
+.small-heading.white {
+    border-bottom: solid black 5px;
+}
+
+.navbar-brand {
+    font-family: 'Oswald';
+    padding-right: 10px;
+    border-right: solid black 3px;
+}
+
+.blurb-container {
+    margin-top: 200px;
+}
+
+.white {
+    background-color: white;
+    color: black;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.about-us-header {
+    padding-top: 100px;
+    font-size: 84px;
+    font-family: 'Oswald';
+}
+
+.about-us-content {
+    padding-top: 55px;
+    font-family: 'Roboto';
+    font-size: 24px;
+    line-height: 28px;
+}
